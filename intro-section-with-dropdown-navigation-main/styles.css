@@ -1,0 +1,76 @@
+
+/* ?object fit */
+*
+{
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box; 
+}
+    nav{
+        display: flex;
+        margin: 50px;
+        justify-content: space-between;
+    }
+    nav h1{
+        padding-right: 50px;
+    }
+
+    .sub-menus{
+        display: flex;
+    }
+
+ ul{
+    list-style: none;
+    display: flex;
+    padding-top: 6px;
+    gap: 20px;
+ }
+
+ .register{
+    display: flex;
+    margin-right: 70px;
+ }
+
+ .register button{
+    border-radius: 8px;
+    border: 0.8px solid grey;
+    padding: 0px 5px;
+    margin-left: 15px;
+ }
+
+ #Learn-more-btn{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 7px;
+
+ }
+ section{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+ }
+
+ .content{
+   margin: 3rem 2rem 0 10rem;
+
+ }
+ 
+ .content div h1{
+    font-size: 40px;
+    font-weight: 900;
+ }
+
+ .image{
+    height: 450px;
+    width: 450px;
+    /* object-fit: cover; */ 
+ }
+
+
+.footer{
+   width: 25rem;
+}

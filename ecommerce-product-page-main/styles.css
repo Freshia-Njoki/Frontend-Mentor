@@ -1,0 +1,99 @@
+*{
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+}
+
+nav{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(235, 233, 233);
+}
+nav h1{
+    padding-right: 50px;
+}
+
+.sub-menus{
+    display: flex;
+}
+
+ul{
+list-style: none;
+color: grey;
+display: flex;
+padding-top: 6px;
+gap: 20px;
+}
+
+section{
+    display:flex;
+    margin-top: 3em;
+    gap: 10em;
+    margin-left: 8em;
+}
+
+.avatar img{
+    margin-left: 1em;
+    height: 30px;
+    width: 30px;
+}
+hr{
+    max-width: 90%;
+}
+img{
+    height: 40px;
+    width: 50px;
+}
+.product{
+    display: grid;
+    grid-template-columns: (3,1fr);
+}
+.featured img{
+    height: 300px;
+    width: 300px;
+}
+img{
+    border-radius: 8px;
+    gap: 1em;
+    width: 70px;
+    height: 70px;
+}
+
+
+.image-1{
+        border: 2px solid hsl(26, 100%, 55%); 
+}
+
+.price{
+    display: flex;
+}
+
+.btn{
+    border: none;
+    border-radius: 8px;
+   padding: 10px;
+}
+
+.add-cart-btn{
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 8px;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    margin-left: 1em;
+}
+.off{
+    color: hsl(26, 100%, 55%);
+    margin-left: 10px;
+    max-height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+div h4 {
+    color: hsl(26, 100%, 55%);
+}
+div p {
+    color: grey;
+}
